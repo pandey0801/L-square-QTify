@@ -7,6 +7,7 @@ import Search from "../Search/Search";
 import styles from "./Navbar.module.css";
 
 function Navbar({ searchData }) {
+    console.log("Navbar searchData:", searchData); // Debugging line to check the value of searchData
     return (
         <nav className={styles.navbar}>
             <Link to="/">
