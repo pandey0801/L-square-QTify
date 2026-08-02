@@ -38,7 +38,7 @@ function App() {
 
   return (
     <>
-      <Navbar searchData={[]} />
+      {/* <Navbar searchData={[]} /> */}
       {/* <Hero /> */}
     </>
   );
