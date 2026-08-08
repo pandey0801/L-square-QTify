@@ -1,3 +1,31 @@
+// import { StrictMode } from 'react'
+// import { createRoot } from 'react-dom/client'
+// import './index.css'
+// import App from './App.jsx'
+
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     <App />
+//   </StrictMode>,
+// )
+
+
+// import React from "react";
+
+
+// import ReactDOM from "react-dom/client";
+// import { BrowserRouter } from "react-router-dom";
+
+// import App from "./App";
+// import "./index.css";
+
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <BrowserRouter>
+//     <App />
+//   </BrowserRouter>
+// );
+
+
 import ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
@@ -5,7 +33,8 @@ import {
 } from "react-router-dom";
 
 import App from "./App";
-import AlbumPage from "./pages/AlbumPage/AlbumPage";
+// import HomePage from "./pages/HomePage/HomePage";
+// import AlbumPage from "./pages/AlbumPage/AlbumPage";
 
 import "./index.css";
 
@@ -22,7 +51,7 @@ const router = createBrowserRouter([
       },
       {
         path: "album/:albumId",
-        element: <AlbumPage />,
+        // element: <AlbumPage />,
       },
     ],
   },
