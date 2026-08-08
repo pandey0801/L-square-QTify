@@ -2,12 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
 import Logo from "../Logo/Logo";
-// import logo from "../../assets/logo.png";
 import Search from "../Search/Search";
 import styles from "./Navbar.module.css";
 
 function Navbar({ searchData }) {
-    console.log("Navbar searchData:", searchData); // Debugging line to check the value of searchData
+    console.log("Navbar searchData:", searchData);
     return (
         <nav className={styles.navbar}>
             <Link to="/">
